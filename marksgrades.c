@@ -24,19 +24,19 @@ int main()
         grade = 'A';
     }
     
-    if ((marks >= 80) & (marks <= 89)){
+    else if ((marks >= 80) & (marks <= 89)){
         grade = 'B';
     }
     
-    if ((marks >= 70) & (marks <= 79)){
+    else if ((marks >= 70) & (marks <= 79)){
         grade = 'C';
     }
     
-    if ((marks >= 60) & (marks <= 69)){
+    else if ((marks >= 60) & (marks <= 69)){
         grade = 'D';
     }
     
-    if (marks <= 60){
+    else {
         grade = 'F';
     }
     
